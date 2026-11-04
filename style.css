@@ -1,0 +1,65 @@
+border-radius: 50%;
+    border: 1px solid white;
+}
+
+.color1 { background: #e9dfd0; }
+.color2 { background: #d4c2ae; }
+.color3 { background: #b9a18c; }
+.color4 { background: #c9a9a3; }
+.color5 { background: #8e8273; }
+
+/* ФИНАЛ */
+
+.final {
+    min-height: 100vh;
+    color: white;
+    background:
+        linear-gradient(rgba(25,30,29,0.35), rgba(25,30,29,0.5)),
+        url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2200&q=90');
+    background-size: cover;
+    background-position: center;
+}
+
+.final .eyebrow {
+    color: #e6d9cc;
+}
+
+.final h2 {
+    font-size: clamp(40px, 8vw, 75px);
+}
+
+.final-names {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 27px;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+/* ТЕЛЕФОНЫ */
+
+@media (max-width: 600px) {
+    .hero-card {
+        padding: 55px 18px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .section {
+        padding: 85px 22px;
+    }
+
+    .story-text {
+        font-size: 21px;
+    }
+
+    .palette {
+        gap: 10px;
+    }
+
+    .color {
+        width: 45px;
+        height: 45px;
+    }
+}
